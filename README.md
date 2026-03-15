@@ -12,6 +12,10 @@ It visualizes **investment growth, inflation impact, and funding gaps** so users
 
 Built with **Next.js App Router, React, TypeScript, TailwindCSS v4, and Recharts**.
 
+Live Deployment: https://goal-calc-hdfc.vercel.app
+
+Demo Video : https://drive.google.com/file/d/152EJaN0obSJxZpN7SSfqzZWANI15OfOu/view?usp=sharing
+
 ---
 
 # 🚀 Features
