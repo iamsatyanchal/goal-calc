@@ -26,12 +26,13 @@ type ProjectionChartProps = {
 type TooltipValue = number | string;
 type TooltipName = string;
 
-function ProjectionTooltip({ active, payload, label }: TooltipProps<TooltipValue, TooltipName>) {
+
+function ProjectionTooltip({ active, payload, label }:any) {
   if (!active || !payload || payload.length === 0) return null;
 
-  const investmentValue = payload.find((item) => item.dataKey === "investmentGrowth")?.value;
-  const inflationValue = payload.find((item) => item.dataKey === "goalInflationCost")?.value;
-  const goalTodayValue = payload.find((item) => item.dataKey === "goalCostToday")?.value;
+  const investmentValue = payload.find((item:any) => item.dataKey === "investmentGrowth")?.value;
+  const inflationValue = payload.find((item:any) => item.dataKey === "goalInflationCost")?.value;
+  const goalTodayValue = payload.find((item:any) => item.dataKey === "goalCostToday")?.value;
 
   return (
     <div className="min-w-[220px] rounded-xl border border-[#c2cfdf] bg-white p-3 shadow-sm">
