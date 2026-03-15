@@ -96,7 +96,7 @@ Powered by **driver.js**.
 
 ## Framework
 
-- Next.js 16 (App Router)
+- Next.js 15 (App Router)
 - React 19
 - TypeScript
 
